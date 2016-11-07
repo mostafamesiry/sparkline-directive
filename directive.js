@@ -6,7 +6,7 @@ angular.module('sparklineModule')
             scope: {
                 chartData: '=data'
             },
-            templateUrl: '/views/directives/sparkline-ibox.html',
+            templateUrl: './directive.html',
             link: function (scope) {
 
                 scope.createdMaximizedChart = false;
