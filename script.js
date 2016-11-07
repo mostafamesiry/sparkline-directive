@@ -1,12 +1,12 @@
 'use strict';
-angular.module('sparklineModule')
+angular.module('multiboxModule', [])
     .directive('multichartIbox', ['$timeout', function($timeout) {
         return {
             restrict: 'AE',
             scope: {
                 chartData: '=data'
             },
-            templateUrl: 'bower_components/SparklineDirective/directive.html',
+            templateUrl: 'bower_components/multichart-directive/directive.html',
             link: function (scope) {
 
                 scope.createdMaximizedChart = false;
