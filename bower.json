@@ -6,7 +6,7 @@
     "**/.*",
     "node_modules",
     "components"
-  ]
+  ],
   "dependencies": {
     "angular": "~1.4.9",
     "angular-chart.js": "~1.0.3"
